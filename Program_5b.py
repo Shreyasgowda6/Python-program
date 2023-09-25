@@ -6,6 +6,6 @@ with open('example.txt', 'r') as f:
         matches=phone_regex.findall(line)
         for match in matches:
             print(match)
-    matches=email_regex.findall(line)
-    for match in matches:
-        print(match)
+        matches=email_regex.findall(line)
+        for match in matches:
+            print(match)
