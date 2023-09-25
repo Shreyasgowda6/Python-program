@@ -10,7 +10,7 @@ for i in range(20):
     print(i+1,":",lineList[i])
 word=input("enter a word: ")
 cnt=0
-for linr in lineList:
+for line in lineList:
     cnt+=line.count(word)
 print("the word",word,"appears",cnt,"times in the file")
 
